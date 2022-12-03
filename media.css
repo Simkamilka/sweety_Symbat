@@ -1,0 +1,49 @@
+@media (max-width: 1200px){
+	#wrapper{
+		max-width: 90%;
+	}
+	main{
+		width: 800px;
+		font-size: 25px;
+	}
+	h1{
+		font-size: 30px;
+	}
+    form{
+		width: 700px;
+	}
+}
+
+@media (max-width: 1000px){
+	h1{
+		font-size: 25px;
+	}
+	#map{
+		width: 500px;
+	}
+	main{
+		width: 650px;
+		font-size: 25px;
+	}
+	form{
+		width: 600px;
+	}
+}
+@media (max-width: 768px){
+    .nav_div {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+	#map{
+		width: 400px;
+	}
+    main{
+		width: 550px;
+		font-size: 20px;
+	}
+	form{
+		width: 500px;
+	}
+}

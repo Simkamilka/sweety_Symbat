@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Parallax Global — New York Office</title>
+        <style>
+            html, body, #map-canvas {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            body {
+            text-align: center;
+            background-color: rgb(149, 156, 207);
+            }
+            nav {
+            margin: 20px;
+            }
+            a {
+            font-size: 24px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: pink;
+            padding: 10px;
+            }
+        </style>
+      <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script> 
+      <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script> 
+       <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+        -->
+        <script src="map.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAquGffcicsQqtW1yczRNCisv9-c6dvLh0&callback=initMap&v=weekly"
+        defer
+        ></script>
+        
+        
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">BTWorld</a>
+            <a href="2page.html">Каталог</a>
+            <a href="login.html">Войти</a>
+            <a href="registration.html">Зарегистрироваться</a>
+        </nav>
+        <div id="map-canvas"></div>
+    </body>
+</html>

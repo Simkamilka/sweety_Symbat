@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Registration form</title>
+    <link href="registration.css" rel="stylesheet">
+    <script type="text/javascript" src="registration.js"></script>
+</head>
+<body>
+<center>
+    <nav>
+        <a href="2page.html">Каталог</a>
+        <a href="login.html">Войти</a>
+        <a href="index.html">BTWorld</a>
+    </nav>
+    <h1>Registration Page</h1>
+        <form action="" id="registrationform" method="post">
+            <table>
+                <tbody>
+                <tr><td></td><td><label id="username_message" class="error_message"></label></td></tr>
+                <tr>
+                    <td>Fullname: </td><td><input type="text" name="username" required/></td>
+                </tr>
+
+                <tr><td></td><td><label id="email_message" class="error_message"></label></td></tr>
+                <tr>
+                    <td>Email address: </td><td><input type="text" name="email" required/></td>
+                </tr>
+
+                <tr><td></td><td><label id="phone_message" class="error_message"></label></td></tr>
+                <tr>
+                    <td>Phone: </td><td><input type="text" name="phone" placeholder="8 ### ### ####" required/></td>
+                </tr>
+
+                <tr><td></td><td><label id="password_message" class="error_message"></label></td></tr>
+                <tr>
+                    <td>Password: </td><td><input type="password" name="password" required/></td>
+                </tr>
+
+                <tr><td></td><td><label id="repassword_message" class="error_message"></label></td></tr>
+                <tr>
+                    <td>Re-password: </td><td><input type="password" name="repassword" required/></td>
+                </tr>
+                <tr><td><label id="bias_message">Your bias:</label></td><td></td></tr>
+                <tr>
+                   <td></td><td><input type="checkbox" name="bias" required/><label id="bias">RM</label></td>
+                </tr>
+                <tr>
+                    <td></td><td><input type="checkbox" name="bias" required/><label id="bias">Suga</label></td>
+                 </tr>
+                 <tr>
+                    <td></td><td><input type="checkbox" name="bias" required/><label id="bias">JungKook</label></td>
+                 </tr>
+                 <tr>
+                    <td></td><td><input type="checkbox" name="bias" required/><label id="bias">Jimin</label></td>
+                 </tr>
+                 <tr>
+                    <td></td><td><input type="checkbox" name="bias" required/><label id="bias">J-Hope</label></td>
+                 </tr>
+                 <tr>
+                    <td></td><td><input type="checkbox" name="bias" required/><label id="bias">V</label></td>
+                 </tr>
+                 <tr>
+                    <td></td><td><input type="checkbox" name="bias" required/><label id="bias">Jin</label></td>
+                 </tr>
+                
+                <tr><td></td><td><label id="check_message" class="error_message"></label></td></tr>
+                <tr>
+                    <td><input type="checkbox" name="check" size="10" required/></td><td>I agree to share my personal data</td>
+                </tr>
+                </tbody>
+            </table>
+            <br>
+            <input type="button" value="Ok" onclick="RegistrationForm()" id="button">
+            <input type="reset" value="Reset " onclick="ResetForm()" id="button">
+        </form>
+    </center>
+</body>
+</html>
